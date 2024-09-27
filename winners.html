@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Победители акции — Package-X5</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Package-X5 - акции">
+    <link rel="preload" href="fonts/Manrope-ExtraLight.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Manrope-ExtraLight.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Manrope-Light.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Manrope-Light.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Manrope-Regular.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Manrope-Regular.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Manrope-Medium.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Manrope-Medium.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Manrope-SemiBold.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Manrope-SemiBold.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Manrope-Bold.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Manrope-Bold.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Manrope-ExtraBold.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Manrope-ExtraBold.woff2" as="font" crossorigin="anonymous">
+    <link rel="icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="manifest.json" href="site.webmanifest" crossorigin="use-credentials">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header  header--winners">
+        <div class="header__wrapper">
+          <h1 class="visually-hidden">Победители акции — Package-X5</h1>
+          <div class="header__nav nav container">
+            <a class="logo" href="index.html" aria-label="Переход на главную">
+              <picture>
+                <source media="(max-width: 767px)" srcset="img/svg/logo-mobile.svg" width="23" height="27"><img src="img/svg/logo-desktop.svg" alt="Логотип проекта" width="165" height="49">
+              </picture>
+            </a>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="hero hero--winners">
+          <div class="container">
+            <div class="hero__background" data-animate="zoom">
+              <picture>
+                <source media="(max-width: 767px)" srcset="img/content/hero-background-mobile.webp, img/content/hero-background-mobile@2x.webp 2x">
+                <source srcset="img/content/hero-background.webp, img/content/hero-background@2x.webp 2x"><img src="img/content/hero-background.webp" width="1440" height="655" alt="">
+              </picture>
+            </div>
+            <div class="hero__wrapper">
+              <div class="hero__content hero__content--winners">
+                <h2>Победители акции</h2>
+                <div class="hero__image-mobile" data-animate="fadeScale">
+                  <picture>
+                    <source type="image/webp" srcset="img/content/hero-prizes-mobile.webp, img/content/hero-prizes-mobile@2x.webp 2x"><img src="img/content/hero-prizes-mobile.webp" srcset="img/content/hero-prizes-mobile@2x.webp 2x" width="375" height="340" alt="Изображение призов">
+                  </picture>
+                </div>
+                <form class="phone-search-form">
+                  <h3>Поиск по номеру телефона</h3>
+                  <div class="phone-search-form__input-wrapper">
+                    <div class="custom-input phone-search-form__input">
+                      <label>
+                        <input type="text" id="phoneSearch" name="phoneSearch" maxlength="4" placeholder=" ">
+                      </label>
+                    </div>
+                    <button class="phone-search-form__submit" type="submit">
+                      <svg class="phone-search-form__icon phone-search-form__icon--search" width="30" height="30" aria-hidden="true">
+                        <use xlink:href="img/sprite.svg#icon-search"></use>
+                      </svg><span class="phone-search-form__icon phone-search-form__icon--close"></span>
+                    </button>
+                  </div>
+                  <p class="phone-search-form__hint">Введите последние 4 цифры номера телефона</p>
+                  <p class="phone-search-form__error">Номер не найден</p>
+                </form>
+              </div>
+              <div class="hero__image-desktop" data-animate="slideIn">
+                <picture>
+                  <source type="image/webp" srcset="img/content/hero-prizes.webp, img/content/hero-prizes@2x.webp 2x"><img src="img/content/hero-prizes.webp" srcset="img/content/hero-prizes@2x.webp 2x" width="654" height="649" alt="Изображение призов">
+                </picture>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="winners-list" id="winners-list" data-section="winners-list">
+          <div class="container">
+            <h2>Список победителей</h2>
+            <div class="winners-list__container">
+              <div class="winners-list__tabs">
+                <button class="winners-list__tab active" id="winners-list-tab-weekly" type="button">Еженедельные</button>
+                <button class="winners-list__tab" id="winners-list-tab-september" type="button">Розыгрыш в сентябре</button>
+              </div>
+              <div class="winners-list__content active" id="winners-list-content-weekly">
+                <div class="winners-list__dropdown">
+                  <button class="winners-list__dropdown-toggle" id="winners-list-dropdown-toggle"><span class="winners-list__dropdown-text" id="winners-list-dropdown-text">02.08.23 - первый розыгрыш</span><img src="img/svg/select-arrow.svg" width="10" height="10" alt="Стрелка выбора">
+                  </button>
+                  <ul class="winners-list__dropdown-menu" id="winners-list-dropdown-menu"></ul>
+                </div>
+                <div class="winners-list__table-wrapper">
+                  <div class="winners-list__period">
+                    <p class="winners-list__period-week" id="winners-list-period-week">1 неделя</p>
+                    <p class="winners-list__period-date" id="winners-list-period-date">02.08.23 — 09.08.23</p>
+                  </div>
+                  <div class="winners-list__grid-container">
+                    <div class="winners-list__grid-header">
+                      <div class="winners-list__grid-cell">Имя</div>
+                      <div class="winners-list__grid-cell">Телефон</div>
+                      <div class="winners-list__grid-cell">Приз</div>
+                    </div>
+                    <div class="winners-list__grid-body" id="winners-list-grid-body"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="winners-list__content" id="winners-list-content-september">
+                <div class="winners-list__table-wrapper">
+                  <p class="winners-list__message">Уважаемые участники! Розыгрыш в сентябре ещё не состоялся. Мы с нетерпением ждём этого события и совсем скоро поделимся с вами результатами. Следите за обновлениями! &hearts;</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__content" data-animate="footer-content">
+            <div class="footer__logo" data-animate="footer-item">
+              <div class="logo logo--footer"><img src="img/svg/logo-desktop-footer.svg" alt="Логотип проекта" width="56" height="40">
+              </div>
+            </div>
+            <div class="footer__about" data-animate="footer-item">
+              <div class="footer__info">&copy;&nbsp;2021&ndash;2023<br>ООО &laquo;Корпоративный центр ИКС&nbsp;5&raquo;</div>
+              <div class="footer__links"><a class="footer__link--privacy-policy" href="#">Политика&nbsp;конфиденциальности</a><a class="footer__link--user-agreement" href="#">Пользовательское&nbsp;соглашение</a><a class="footer__link--promotion-rules" href="#">Правила акции</a></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/vendor.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
