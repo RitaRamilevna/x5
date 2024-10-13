@@ -6,31 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Package-X5 - акции">
-    <link rel="preload" href="fonts/Manrope-ExtraLight.woff" as="font" crossorigin="anonymous">
-    <link rel="preload" href="fonts/Manrope-ExtraLight.woff2" as="font" crossorigin="anonymous">
-    <link rel="preload" href="fonts/Manrope-Light.woff" as="font" crossorigin="anonymous">
-    <link rel="preload" href="fonts/Manrope-Light.woff2" as="font" crossorigin="anonymous">
-    <link rel="preload" href="fonts/Manrope-Regular.woff" as="font" crossorigin="anonymous">
-    <link rel="preload" href="fonts/Manrope-Regular.woff2" as="font" crossorigin="anonymous">
-    <link rel="preload" href="fonts/Manrope-Medium.woff" as="font" crossorigin="anonymous">
     <link rel="preload" href="fonts/Manrope-Medium.woff2" as="font" crossorigin="anonymous">
-    <link rel="preload" href="fonts/Manrope-SemiBold.woff" as="font" crossorigin="anonymous">
-    <link rel="preload" href="fonts/Manrope-SemiBold.woff2" as="font" crossorigin="anonymous">
-    <link rel="preload" href="fonts/Manrope-Bold.woff" as="font" crossorigin="anonymous">
     <link rel="preload" href="fonts/Manrope-Bold.woff2" as="font" crossorigin="anonymous">
-    <link rel="preload" href="fonts/Manrope-ExtraBold.woff" as="font" crossorigin="anonymous">
-    <link rel="preload" href="fonts/Manrope-ExtraBold.woff2" as="font" crossorigin="anonymous">
     <link rel="icon" href="favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="manifest.json" href="site.webmanifest" crossorigin="use-credentials">
-    <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body>
@@ -68,7 +49,7 @@
                 <form class="hero__form" id="participationForm">
                   <div class="custom-toggle custom-toggle--radio">
                     <label>
-                      <input type="checkbox" id="agreement" name="agreement" required><span class="custom-toggle__icon"></span><span class="custom-toggle__label">Я согласен на <a href='#' tabindex='-1'>участие в акции</a></span>
+                      <input type="checkbox" id="agreement" name="agreement" required><span class="custom-toggle__icon"></span><span class="custom-toggle__label">Я согласен на <a href='#' tabindex='-1'>участие в&nbsp;акции</a></span>
                     </label>
                   </div>
                   <button class="btn hero__button" type="button" disabled><span>Принять участие</span></button>
@@ -106,14 +87,14 @@
                 <div class="weekly__sliders" data-animate="fadeIn">
                   <div class="weekly__swiper swiper">
                     <div class="weekly__swiper-wrapper swiper-wrapper">
-                      <div class="promo-card__slide swiper-slide promo-card__slide--green" data-animate="fadeScale">
-                        <div class="promo-card__slide-content">
-                          <div class="promo-card__slide-item"><img src="img/svg/x5.svg" width="28" height="24" alt="Иконка 300 призов">
+                      <div class="promo-card swiper-slide promo-card--green" data-animate="fadeScale">
+                        <div class="promo-card__content">
+                          <div class="promo-card__item"><img src="img/svg/x5.svg" width="28" height="24" alt="Иконка 300 призов">
                             <h4>300 призов</h4>
                           </div>
                           <p>3000 баллов <br>«X5 Клуба»</p><span>Меньше 3 месяцев</span>
                         </div>
-                        <div class="promo-card__slide-image">
+                        <div class="promo-card__image">
                           <picture>
                             <source type="image/webp" srcset="img/content/green-yellow-characters.webp, img/content/green-yellow-characters@2x.webp 2x"><img src="img/content/green-yellow-characters.png" srcset="img/content/green-yellow-characters@2x.png 2x" width="106" height="102" alt="Зеленый и желтый персонажи">
                           </picture>
@@ -128,26 +109,26 @@
                 <div class="weekly__sliders" data-animate="fadeIn">
                   <div class="weekly__swiper swiper">
                     <div class="weekly__swiper-wrapper swiper-wrapper">
-                      <div class="promo-card__slide swiper-slide promo-card__slide--pelorous" data-animate="fadeScale">
-                        <div class="promo-card__slide-content">
-                          <div class="promo-card__slide-item"><img src="img/svg/citylink.svg" width="104" height="24" alt="Иконка "><img src="img/svg/info.svg" width="24" height="24" alt="Иконка информации">
+                      <div class="promo-card swiper-slide promo-card--pelorous" data-animate="fadeScale">
+                        <div class="promo-card__content">
+                          <div class="promo-card__item"><img src="img/svg/citylink.svg" width="104" height="24" alt="Иконка "><img src="img/svg/info.svg" width="24" height="24" alt="Иконка информации">
                           </div>
                           <p>Чайники</p><span>От 3 до 6 месяцев</span>
                         </div>
-                        <div class="promo-card__slide-image">
+                        <div class="promo-card__image">
                           <picture>
                             <source type="image/webp" srcset="img/content/kettle.webp, img/content/kettle@2x.webp 2x"><img src="img/content/kettle.png" srcset="img/content/kettle@2x.png 2x" width="156" height="140" alt="Чайник">
                           </picture>
                         </div>
                       </div>
-                      <div class="promo-card__slide swiper-slide promo-card__slide--pale-turquoise" data-animate="fadeScale">
-                        <div class="promo-card__slide-content">
-                          <div class="promo-card__slide-item"><img src="img/svg/x5.svg" width="28" height="24" alt="Иконка 300 призов">
+                      <div class="promo-card swiper-slide promo-card--pale-turquoise" data-animate="fadeScale">
+                        <div class="promo-card__content">
+                          <div class="promo-card__item"><img src="img/svg/x5.svg" width="28" height="24" alt="Иконка 300 призов">
                             <h4>300 призов</h4>
                           </div>
                           <p>3000 баллов <br>«X5 Клуба»</p><span>От 3 до 6 месяцев</span>
                         </div>
-                        <div class="promo-card__slide-image">
+                        <div class="promo-card__image">
                           <picture>
                             <source type="image/webp" srcset="img/content/green-character.webp, img/content/green-character@2x.webp 2x"><img src="img/content/green-character.png" srcset="img/content/green-character@2x.png 2x" width="106" height="102" alt="Зеленый персонаж">
                           </picture>
@@ -162,26 +143,26 @@
                 <div class="weekly__sliders" data-animate="fadeIn">
                   <div class="weekly__swiper swiper">
                     <div class="weekly__swiper-wrapper swiper-wrapper">
-                      <div class="promo-card__slide swiper-slide promo-card__slide--fog" data-animate="fadeScale">
-                        <div class="promo-card__slide-content">
-                          <div class="promo-card__slide-item"><img src="img/svg/citylink.svg" width="104" height="24" alt="Иконка "><img src="img/svg/info.svg" width="24" height="24" alt="Иконка информации">
+                      <div class="promo-card swiper-slide promo-card--fog" data-animate="fadeScale">
+                        <div class="promo-card__content">
+                          <div class="promo-card__item"><img src="img/svg/citylink.svg" width="104" height="24" alt="Иконка "><img src="img/svg/info.svg" width="24" height="24" alt="Иконка информации">
                           </div>
                           <p>Яндекс Станция Мини</p><span>Больше <br>6 месяцев</span>
                         </div>
-                        <div class="promo-card__slide-image">
+                        <div class="promo-card__image">
                           <picture>
                             <source type="image/webp" srcset="img/content/yandex-station.webp, img/content/yandex-station@2x.webp 2x"><img src="img/content/yandex-station.png" srcset="img/content/yandex-station@2x.png 2x" width="156" height="140" alt="Яндекс Станции Мини">
                           </picture>
                         </div>
                       </div>
-                      <div class="promo-card__slide swiper-slide promo-card__slide--picton-blue" data-animate="fadeScale">
-                        <div class="promo-card__slide-content">
-                          <div class="promo-card__slide-item"><img src="img/svg/x5.svg" width="28" height="24" alt="Иконка 300 призов">
+                      <div class="promo-card swiper-slide promo-card--picton-blue" data-animate="fadeScale">
+                        <div class="promo-card__content">
+                          <div class="promo-card__item"><img src="img/svg/x5.svg" width="28" height="24" alt="Иконка 300 призов">
                             <h4>300 призов</h4>
                           </div>
                           <p>3000 баллов <br>«X5 Клуба»</p><span>Больше 6 месяцев</span>
                         </div>
-                        <div class="promo-card__slide-image">
+                        <div class="promo-card__image">
                           <picture>
                             <source type="image/webp" srcset="img/content/yellow-character.webp, img/content/yellow-character@2x.webp 2x"><img src="img/content/yellow-character.png" srcset="img/content/yellow-character@2x.png 2x" width="106" height="102" alt="Желтый персонаж">
                           </picture>
@@ -203,26 +184,26 @@
                 <div class="monthly__sliders" data-animate="fadeIn">
                   <div class="monthly__swiper swiper">
                     <div class="monthly__swiper-wrapper swiper-wrapper">
-                      <div class="promo-card__slide swiper-slide promo-card__slide--rose" data-animate="fadeScale">
-                        <div class="promo-card__slide-content">
-                          <div class="promo-card__slide-item"><img src="img/svg/citylink.svg" width="104" height="24" alt="Иконка "><img src="img/svg/info.svg" width="24" height="24" alt="Иконка информации">
+                      <div class="promo-card swiper-slide promo-card--rose" data-animate="fadeScale">
+                        <div class="promo-card__content">
+                          <div class="promo-card__item"><img src="img/svg/citylink.svg" width="104" height="24" alt="Иконка "><img src="img/svg/info.svg" width="24" height="24" alt="Иконка информации">
                           </div>
                           <p>Телевизоры&nbsp;65&Prime;</p><span>От&nbsp;3&nbsp;до&nbsp;6<br>месяцев</span>
                         </div>
-                        <div class="promo-card__slide-image">
+                        <div class="promo-card__image">
                           <picture>
                             <source type="image/webp" srcset="img/content/tv.webp, img/content/tv@2x.webp 2x"><img src="img/content/tv.png" srcset="img/content/tv@2x.png 2x" width="156" height="140" alt="Телевизор">
                           </picture>
                         </div>
                       </div>
-                      <div class="promo-card__slide swiper-slide promo-card__slide--pale-turquoise" data-animate="fadeScale">
-                        <div class="promo-card__slide-content">
-                          <div class="promo-card__slide-item"><img src="img/svg/x5.svg" width="28" height="24" alt="Иконка 300 призов">
+                      <div class="promo-card swiper-slide promo-card--pale-turquoise" data-animate="fadeScale">
+                        <div class="promo-card__content">
+                          <div class="promo-card__item"><img src="img/svg/x5.svg" width="28" height="24" alt="Иконка 300 призов">
                             <h4>300 призов</h4>
                           </div>
                           <p>3000 баллов <br>«X5 Клуба»</p><span>От 3 до 6 месяцев</span>
                         </div>
-                        <div class="promo-card__slide-image">
+                        <div class="promo-card__image">
                           <picture>
                             <source type="image/webp" srcset="img/content/green-character.webp, img/content/green-character@2x.webp 2x"><img src="img/content/green-character.png" srcset="img/content/green-character@2x.png 2x" width="106" height="102" alt="Зеленый персонаж">
                           </picture>
@@ -237,26 +218,26 @@
                 <div class="monthly__sliders" data-animate="fadeIn">
                   <div class="monthly__swiper swiper">
                     <div class="monthly__swiper-wrapper swiper-wrapper">
-                      <div class="promo-card__slide swiper-slide promo-card__slide--lavender" data-animate="fadeScale">
-                        <div class="promo-card__slide-content">
-                          <div class="promo-card__slide-item"><img src="img/svg/citylink.svg" width="104" height="24" alt="Иконка "><img src="img/svg/info.svg" width="24" height="24" alt="Иконка информации">
+                      <div class="promo-card swiper-slide promo-card--lavender" data-animate="fadeScale">
+                        <div class="promo-card__content">
+                          <div class="promo-card__item"><img src="img/svg/citylink.svg" width="104" height="24" alt="Иконка "><img src="img/svg/info.svg" width="24" height="24" alt="Иконка информации">
                           </div>
                           <p>Пылесосы</p><span>Больше 6 месяцев</span>
                         </div>
-                        <div class="promo-card__slide-image">
+                        <div class="promo-card__image">
                           <picture>
                             <source type="image/webp" srcset="img/content/vacuum-cleaner.webp, img/content/vacuum-cleaner@2x.webp 2x"><img src="img/content/vacuum-cleaner.png" srcset="img/content/vacuum-cleaner@2x.png 2x" width="172" height="168" alt="Пылесос">
                           </picture>
                         </div>
                       </div>
-                      <div class="promo-card__slide swiper-slide promo-card__slide--picton-blue" data-animate="fadeScale">
-                        <div class="promo-card__slide-content">
-                          <div class="promo-card__slide-item"><img src="img/svg/x5.svg" width="28" height="24" alt="Иконка 300 призов">
+                      <div class="promo-card swiper-slide promo-card--picton-blue" data-animate="fadeScale">
+                        <div class="promo-card__content">
+                          <div class="promo-card__item"><img src="img/svg/x5.svg" width="28" height="24" alt="Иконка 300 призов">
                             <h4>300 призов</h4>
                           </div>
                           <p>3000 баллов <br>«X5 Клуба»</p><span>Больше 6 месяцев</span>
                         </div>
-                        <div class="promo-card__slide-image">
+                        <div class="promo-card__image">
                           <picture>
                             <source type="image/webp" srcset="img/content/yellow-character.webp, img/content/yellow-character@2x.webp 2x"><img src="img/content/yellow-character.png" srcset="img/content/yellow-character@2x.png 2x" width="106" height="102" alt="Желтый персонаж">
                           </picture>
@@ -274,7 +255,7 @@
             <form class="results__form" id="resultsForm" data-animate="results-form">
               <div class="custom-toggle custom-toggle--radio">
                 <label>
-                  <input type="checkbox" id="agree" name="agree" required><span class="custom-toggle__icon"></span><span class="custom-toggle__label">Я согласен на <a href='#' tabindex='-1'>участие в акции</a></span>
+                  <input type="checkbox" id="agree" name="agree" required><span class="custom-toggle__icon"></span><span class="custom-toggle__label">Я согласен на <a href='#' tabindex='-1'>участие в&nbsp;акции</a></span>
                 </label>
               </div>
               <button class="btn results__button" type="button" disabled><span>Принять участие</span></button>
@@ -311,7 +292,7 @@
             </div>
             <div class="footer__about" data-animate="footer-item">
               <div class="footer__info">&copy;&nbsp;2021&ndash;2023<br>ООО &laquo;Корпоративный центр ИКС&nbsp;5&raquo;</div>
-              <div class="footer__links"><a class="footer__link--privacy-policy" href="#">Политика&nbsp;конфиденциальности</a><a class="footer__link--user-agreement" href="#">Пользовательское&nbsp;соглашение</a><a class="footer__link--promotion-rules" href="#">Правила акции</a></div>
+              <div class="footer__links"><a class="footer__link footer__link--privacy-policy" href="#">Политика&nbsp;конфиденциальности</a><a class="footer__link footer__link--user-agreement" href="#">Пользовательское&nbsp;соглашение</a><a class="footer__link footer__link--promotion-rules" href="#">Правила акции</a></div>
             </div>
           </div>
         </div>
