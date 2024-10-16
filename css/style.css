@@ -696,16 +696,6 @@ button,
   overflow: hidden;
   -webkit-transform-origin: top center;
   transform-origin: top center;
-  /*  animation: zoom-in 1.5s ease-out;
-
-  @keyframes zoom-in {
-    from {
-      transform: translateX(-50%) scaleY(0.9);
-    }
-    to {
-      transform: translateX(-50%) scaleY(1);
-    }
-  } */
 }
 
 .hero__background img {
@@ -1704,12 +1694,15 @@ button,
   background-color: #498ae9;
 }
 
-.winners-list__dropdown-icon {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+.winners-list__dropdown-toggle img {
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+.winners-list__dropdown-text {
+  margin: 0 auto;
 }
 
 .winners-list__dropdown-menu {
@@ -1878,8 +1871,13 @@ button,
   display: block;
 }
 
+.winners-list__dropdown-toggle.open img {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
 .footer {
-  padding: 25px 0;
+  padding: 25px 0 137px;
 }
 
 .footer__content {
@@ -3081,6 +3079,11 @@ button,
     width: 50%;
   }
 
+  .hero--winners .hero__background {
+    width: 93%;
+    left: 60%;
+  }
+
   .hero--winners .hero__image-desktop {
     margin-top: -150px;
     margin-right: -44px;
@@ -3113,6 +3116,10 @@ button,
 
   .phone-search-form h3 {
     font-size: 28px;
+  }
+
+  .winners-list {
+    padding-top: 30px;
   }
 
   .winners-list__tab {
@@ -3151,6 +3158,10 @@ button,
 
   .winners-list__grid-item {
     font-size: 22px;
+  }
+
+  .footer {
+    padding-bottom: 60px;
   }
 
   .custom-input label input,
@@ -3206,7 +3217,8 @@ button,
   }
 
   .hero--winners .hero__background {
-    left: 60%;
+    width: 100%;
+    left: 54%;
   }
 
   .hero--winners .hero__wrapper {
@@ -3313,6 +3325,10 @@ button,
 
   .phone-search-form h3 {
     font-size: 26px;
+  }
+
+  .winners-list {
+    padding-top: 0;
   }
 
   .winners-list h2 {
@@ -3964,8 +3980,8 @@ button,
 
   .winners-list__grid-header,
   .winners-list__grid-item {
-    -ms-grid-columns: 90px 110px 1fr;
-    grid-template-columns: 90px 110px 1fr;
+    -ms-grid-columns: 27.69% 33.85% 32.31%;
+    grid-template-columns: 27.69% 33.85% 32.31%;
   }
 
   .winners-list__grid-header {
