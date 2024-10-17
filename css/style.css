@@ -735,7 +735,7 @@ button,
 
 .hero__content--winners {
   max-width: 49%;
-  padding-top: 58px;
+  padding-top: 0;
 }
 
 .hero h2 {
@@ -1503,7 +1503,7 @@ button,
   display: block;
   position: absolute;
   top: 50%;
-  left: 29%;
+  left: 45%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   -webkit-transition: opacity 0.3s ease;
@@ -3980,8 +3980,8 @@ button,
 
   .winners-list__grid-header,
   .winners-list__grid-item {
-    -ms-grid-columns: 27.69% 33.85% 32.31%;
-    grid-template-columns: 27.69% 33.85% 32.31%;
+    -ms-grid-columns: 1fr 33.85% 32.31%;
+    grid-template-columns: 1fr 33.85% 32.31%;
   }
 
   .winners-list__grid-header {
